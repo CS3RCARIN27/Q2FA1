@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CS Q2 FA1 </title>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Reyca Savanna G. Carin">
+	</head>
+	<style>
+		a{ 
+			text-decoration: none;
+		}
+		
+		a#link1 {
+			display: inline-block;
+			color: #0077cc;
+			background-color: #f5ccb3;
+		}
+		
+		a#link2 {
+			display: inline-block;
+			color: #393f5c;
+			background-color: #b3f5d0; 
+		}
+		
+		div {
+			margin: 5px;
+			padding: 10px;
+		}
+		
+		div#div1 {
+			border: 1px solid;
+		}
+		
+		div#div2 {
+			border: 1px solid;
+		}
+		
+		div#div1:target {
+			color: black;
+			background-color: #e3bade;
+		}
+		
+		div#div2:target {
+			border: 10px dotted green;
+			color: #538a77;
+			background-color: #e0adcd;
+		}
+		
+		a#link1:active {
+			color: red;
+			background-color: #349c0b;
+		}
+		
+		a#link2:active {
+			color: black;
+			background-color: #24f024;
+		}
+	</style>
+	<body>
+		<a href="#div1" id="link1">First Link</a><br>
+		<a href="#div2" id="link2">Second Link</a><br>
+
+		<div id="div1">
+			<p>Div 1 here.</p>
+		</div><br>
+
+		<div id="div2">
+			<p>Div 2 here.</p>
+		</div>
+	</body>
+</html>
